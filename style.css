@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   min-height: 100vh;
+   background: url(./horizontal-shot-prags-lake-fanes-senns-prags-nature-park-located-south-tyrol-italy.jpg) no-repeat center/cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box; 
+    color: black;
+    gap: 35px;
+}
+
+.logo {
+    color: #1f2937;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: bold;
+}   
+
+.right-sec {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+
+.navbar ul {
+    font-size: medium;
+    font-weight: 549;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 35px;
+}
+
+.login-btn {
+    font-size: medium;
+    font-weight: 549;
+    padding: 8px 20px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-card {
+    
+    width: 360px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);    
+}
+
+.login-card h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.close{
+    color: #000000;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.input-box {
+    color: #000000;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+.input-box label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    pointer-events: none;
+    transition: 0.1s;
+
+}
+
+.input-box input:focus + label,
+.input-box input:placeholder-shown + label {
+    top: -20px;
+    font-size: 12px;
+}
+
+/* Options */
+.options {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    gap: 38%;
+}
+
+.options a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 550;
+    background: #1f2937;
+    color: white;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
